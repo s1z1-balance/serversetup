@@ -22,7 +22,7 @@ cd "server paper 1.16.5" || exit 1
 echo "Downloading server files..."
 
 echo "Downloading Server Core..."
-wget -q https://api.papermc.io/v2/projects/paper/versions/1.16.5/latest/download -O server.jar
+wget -q https://api.papermc.io/v2/projects/paper/versions/1.16.5/builds/794/downloads/paper-1.16.5-794.jar -O server.jar
 echo "Downloading EULA..."
 wget -q https://raw.githubusercontent.com/s1z1-balance/serversetup/main/eula.txt -O eula.txt
 echo "Downloading Paper config..."
